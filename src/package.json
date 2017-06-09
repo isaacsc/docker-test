@@ -1,0 +1,12 @@
+{
+  "name": "docker-node-api",
+  "version": "1.0.0",
+  "description": "Test Docker y Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
