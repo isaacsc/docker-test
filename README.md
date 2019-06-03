@@ -143,5 +143,11 @@ Ejecutando la imagen con #-d# el conatiner se ejecuta en segundo plano (detached
 * Eliminar uno o varios contenedores
 `docker rm -f <container ids>`
 
+* Eliminar todos los contenedores
+`docker rm $(docker ps -a -q)`
+
 * Eliminar uno o varias imagenes
 `docker rmi <images ids>`
+
+* Eliminar todas la imágenes de Docker
+`docker rmi $(docker images -q)`
